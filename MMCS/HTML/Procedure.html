@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMCS Comms Check</title>
+    <style>
+        :root {
+            --bg-color: #f4f4f5;
+            --container-bg: #ffffff;
+            --text-main: #18181b;
+            --text-muted: #52525b;
+            --border-color: #e4e4e7;
+            --accent-color: #2563eb;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        details {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        summary {
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 16px;
+            background-color: var(--container-bg);
+            cursor: pointer;
+            list-style: none; /* Removes default triangle in some browsers */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Custom dropdown arrow */
+        summary::after {
+            content: "▼";
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            transition: transform 0.2s ease;
+        }
+
+        details[open] summary::after {
+            transform: rotate(180deg);
+        }
+
+        details[open] summary {
+            border-bottom: 1px solid var(--border-color);
+            background-color: #fafafa;
+        }
+
+        .checklist-content {
+            padding: 12px 16px;
+        }
+
+        label {
+            display: flex;
+            align-items: flex-start;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        label:last-child {
+            border-bottom: none;
+        }
+
+        /* Tap-friendly checkboxes */
+        input[type="checkbox"] {
+            appearance: none;
+            background-color: var(--container-bg);
+            margin: 4px 16px 0 0;
+            font: inherit;
+            color: currentColor;
+            width: 1.5em;
+            height: 1.5em;
+            border: 2px solid var(--text-muted);
+            border-radius: 4px;
+            display: grid;
+            place-content: center;
+            flex-shrink: 0;
+        }
+
+        input[type="checkbox"]::before {
+            content: "";
+            width: 0.8em;
+            height: 0.8em;
+            transform: scale(0);
+            transition: 120ms transform ease-in-out;
+            box-shadow: inset 1em 1em var(--accent-color);
+            transform-origin: center;
+            clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+        }
+
+        input[type="checkbox"]:checked::before {
+            transform: scale(1);
+        }
+
+        input[type="checkbox"]:checked {
+            border-color: var(--accent-color);
+        }
+
+        /* Strikethrough effect when checked */
+        input[type="checkbox"]:checked + .task-text {
+            text-decoration: line-through;
+            color: var(--text-muted);
+        }
+
+        .task-text {
+            flex-grow: 1;
+        }
+
+        .note {
+            display: block;
+            font-size: 0.85em;
+            color: var(--text-muted);
+            margin-top: 4px;
+            font-style: italic;
+        }
+        
+        .code-block {
+            display: block;
+            background: #e4e4e7;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin-top: 6px;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MMCS Comms Check</h1>
+
+    <details open>
+        <summary>ON</summary>
+        <div class="checklist-content">
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Hard drive match KGV green box</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Insert hard drive into cpu left (closer to driver side) zip tie out</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Turn on transceiver switch</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Turn on cpu</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Turn on KGV to run</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Wait for light flash amber and green</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Turn on screen</span>
+            </label>
+        </div>
+    </details>
+
+    <details>
+        <summary>Logging in</summary>
+        <div class="checklist-content">
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Black screen password only once</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Match bumper and vehicle number</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Insert user and password <span class="note">(will be given)</span></span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Wait for atak to load <span class="note">(automatic)</span></span>
+            </label>
+        </div>
+    </details>
+
+    <details>
+        <summary>Sending message</summary>
+        <div class="checklist-content">
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Check message icon <span class="note">(Looking at the geographical map look at the top of the screen, it’s beside the teams apps)</span></span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Check message to TOC <span class="note">(if not showing done by opening contacts box and going through chain of command and favorite TOC.)</span></span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Ensure secret and routine options are selected</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Comment 560- Vic comms check and date time group
+                    <span class="note code-block">Example: "560-AMBUL# Comms Check DATE+TIME+ZONE"</span>
+                </span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Types of checks vary by week <span class="note">(IE Log stat, bumper number, comms)</span></span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Date time group Z month year <span class="note">(generated top left corner of the screen)</span></span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Send comms check</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Wait for toc to reply</span>
+            </label>
+        </div>
+    </details>
+
+    <details>
+        <summary>POWER DOWN</summary>
+        <div class="checklist-content">
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Swipe down from top and log out</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Don’t press power button on the side; use the digital power button. <span class="note">Should be the log in screen.</span></span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">If restart required redo do all steps</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Turn off KGV</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Turn off CPU</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Turn off transceiver</span>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span class="task-text">Pull out hard drive</span>
+            </label>
+        </div>
+    </details>
+
+</body>
+</html>
