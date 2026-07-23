@@ -191,6 +191,211 @@ const efmbQuizData = [
         explanation: "Whole blood units should not be collected from donors more frequently than every 8 weeks.[span_34](start_span)[span_34](end_span)",
         cite: ""
     },
+{
+q: "A massive transfusion in children is defined as what volume per weight?",
+options: [
+"5-10 ml/kg",
+"10-15 ml/kg",
+"15-20 ml/kg",
+"20-25 ml/kg"
+],
+answer: 2,
+explanation: "A massive transfusion in children is defined as 10-15 ml/kg.",
+cite: ""
+},
+{
+q: "What is NOT one of the World Health Organization's 'five moments of hand hygiene'?",
+options: [
+"Before patient contact",
+"After body fluid exposure risk",
+"Before putting on gloves for non-aseptic tasks",
+"After contact with patient surroundings, even if gloves were worn"
+],
+answer: 3,
+explanation: "The five moments include: before patient contact, before aseptic tasks, after body fluid exposure risk, after patient contact, and after contact with patient surroundings.",
+cite: ""
+},
+{
+q: "Which personal protective equipment should be worn with all patients suspected or known to have multidrug resistant organism colonization or infection with C. difficile?",
+options: [
+"Gloves and masks",
+"Gowns and goggles",
+"Gloves and gowns",
+"Masks and face shields"
+],
+answer: 3,
+explanation: "Gloves and gowns should be worn with all patients suspected or known to have multidrug resistant organism colonization or C. difficile infection.",
+cite: ""
+},
+{
+q: "Daily ________ of ICU patients has shown a reduction of infections with vancomycin-resistant enterococci (VRE) and methicillin-resistant staphylococcus aureus (MRSA).",
+options: [
+"Cohorting",
+"Bathing",
+"Antibiotic rotation",
+"Wound debridement"
+],
+answer: 2,
+explanation: "Daily bathing of ICU patients has shown a reduction of infections with VRE and MRSA.",
+cite: ""
+},
+{
+q: "Blast injuries, especially those related to ________, present a unique bloodborne pathogen risk if an impaled body part is introduced into the trauma patient.",
+options: [
+"Improvised Explosive Devices (IEDs)",
+"Suicide bombers",
+"Artillery shells",
+"Mortar rounds"
+],
+answer: 2,
+explanation: "Blast injuries related to a suicide bomber present a unique bloodborne pathogen risk if an impaled body part is introduced into the trauma patient.",
+cite: ""
+},
+{
+q: "For a patient that sustained injuries from a suicide bomber, when should testing for Hepatitis B (HBV) and HIV be obtained?",
+options: [
+"Only if symptoms appear",
+"24 hours post-exposure",
+"At the time of exposure and up to six months post-exposure",
+"Immediately prior to discharge from the theater"
+],
+answer: 3,
+explanation: "Testing for HBV and HIV should be obtained at the time of exposure and up to six months post-exposure.",
+cite: ""
+},
+{
+q: "Which role of care should ideally have a designated Infection Prevention and Control Officer?",
+options: [
+"Role 1 facilities",
+"Role 1 and 2 facilities",
+"Role 2 and 3 facilities",
+"Role 3 and 4 facilities"
+],
+answer: 3,
+explanation: "Ideally, Role 2 and 3 facilities should have a designated Infection Prevention and Control Officer.",
+cite: ""
+},
+{
+q: "Which substance is NOT a highly water soluble irritant?",
+options: [
+"Ammonia",
+"Hydrogen chloride",
+"Oxides of nitrogen and phosgene",
+"Sulfur dioxide"
+],
+answer: 3,
+explanation: "Oxides of nitrogen and phosgene are not highly water soluble irritants.",
+cite: ""
+},
+{
+q: "Which chemical irritant has a sweet, pleasant smell of mown hay?",
+options: [
+"Chlorine",
+"Phosgene",
+"Hydrogen sulfide",
+"Cyanide"
+],
+answer: 2,
+explanation: "Phosgene is a chemical irritant that has a sweet, pleasant smell of mown hay.",
+cite: ""
+},
+{
+q: "Which chemical irritant may produce a severe cough with laryngospasm when exposed to high concentrations?",
+options: [
+"Phosgene hydrolysis",
+"Mustard gas",
+"Lewisite",
+"Sarin"
+],
+answer: 1,
+explanation: "Phosgene hydrolysis may produce a severe cough with laryngospasm when exposed to high concentrations.",
+cite: ""
+},
+{
+q: "Which chemical irritant smells like rotten eggs?",
+options: [
+"Cyanogen chloride",
+"Ammonia",
+"Hydrogen sulfide",
+"Phosgene"
+],
+answer: 3,
+explanation: "Hydrogen sulfide is a chemical irritant that smells like rotten eggs.",
+cite: ""
+},
+{
+q: "Tactical combat casualty care (TCCC) or prolonged field care AARs, along with incomplete medical documentation, should be completed within how many hours of patient handoff?",
+options: [
+"12 Hours",
+"24 Hours",
+"48 Hours",
+"72 Hours"
+],
+answer: 2,
+explanation: "Documentation and AARs should be completed within 24 hours of patient handoff and submitted to the Joint Trauma System (JTS).",
+cite: ""
+},
+{
+q: "What are the major snakebite syndromes?",
+options: [
+"Neurotoxic, Hemotoxic, Cytotoxic",
+"Neurotoxic, Cardiotoxic, Cytotoxic",
+"Hemotoxic, Cardiotoxic, Myotoxic",
+"Cytotoxic, Myotoxic, Neurotoxic"
+],
+answer: 1,
+explanation: "The major snakebite syndromes are Neurotoxic, Hemotoxic, and Cytotoxic.",
+cite: ""
+},
+{
+q: "What are the major signs and symptoms of a neurotoxic snakebite?",
+options: [
+"Coagulopathy and local bleeding",
+"Severe pain and progressive edema",
+"Bilateral ptosis, descending paralysis, dyspnea/AMS",
+"Tissue destruction and shock"
+],
+answer: 3,
+explanation: "The major signs and symptoms of a neurotoxic snakebite are bilateral ptosis, descending paralysis, and dyspnea/AMS.",
+cite: ""
+},
+{
+q: "What are the major signs and symptoms of a hemotoxic snakebite?",
+options: [
+"Coagulopathy (VICC), local bleeding, systemic bleeding",
+"Severe pain, progressive edema, tissue destruction",
+"Bilateral ptosis, descending paralysis",
+"Dyspnea, AMS, respiratory failure"
+],
+answer: 1,
+explanation: "The major signs and symptoms of a hemotoxic snakebite are coagulopathy (VICC), local bleeding, and systemic bleeding.",
+cite: ""
+},
+{
+q: "What are the major signs and symptoms of a cytotoxic snakebite?",
+options: [
+"Coagulopathy (VICC) and systemic bleeding",
+"Severe pain, progressive edema, tissue destruction",
+"Bilateral ptosis and descending paralysis",
+"Altered mental status and dyspnea"
+],
+answer: 2,
+explanation: "The major signs and symptoms of a cytotoxic snakebite are severe pain, progressive edema, and tissue destruction.",
+cite: ""
+},
+{
+q: "What is the preferred route for snake antivenom administration?",
+options: [
+"Intramuscular (IM)",
+"Subcutaneous (SQ)",
+"Intravenous (IV)",
+"Intraosseous (IO)"
+],
+answer: 3,
+explanation: "The preferred route for snake antivenom administration is Intravenous (IV).",
+cite: ""
+}
+
 
 
 
@@ -199,4 +404,728 @@ const efmbQuizData = [
 // Exporting the module depending on how your quizengine.js imports files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = efmbQuizData;
-}
+},
+    {
+        q: "Is snake antivenom dosage weight-based, and is there a difference in dosing between adults and children?[span_0](start_span)[span_0](end_span)",
+        options: [
+            "Yes, it is weight-based for all patients.",
+            "No, snake antivenom dosage is not weight-based and there is no difference in dosing between adults and children.",
+            "It is weight-based for children, but not for adults.",
+            "It is weight-based for adults, but not for children."
+        ],
+        answer: 2,
+        explanation: "Snake antivenom dosage is not weight-based and there is no difference in dosing between adults and children.[span_1](start_span)[span_1](end_span)",
+        cite: ""
+    },
+    {
+        q: "Is overdosing snake antivenom a major concern during the active treatment phase?[span_2](start_span)[span_2](end_span)",
+        options: [
+            "No, overdosing is not a concern; the worst-case scenario is an allergic reaction.",
+            "Yes, overdosing can lead to fatal coagulopathy.",
+            "Yes, overdosing causes immediate renal failure.",
+            "No, but it significantly increases the risk of compartment syndrome."
+        ],
+        answer: 1,
+        explanation: "Overdosing snake antivenom is not a concern during the active treatment phase, and the worst-case scenario is an allergic reaction.[span_3](start_span)[span_3](end_span)",
+        cite: ""
+    },
+    {
+        q: "Does the evacuation of a patient with snakebite envenomation take precedence over the administration of the appropriate antivenom?[span_4](start_span)[span_4](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only for neurotoxic snakebites",
+            "Only if evacuation is under 1 hour"
+        ],
+        answer: 2,
+        explanation: "The evacuation of a patient with snakebite envenomation does NOT take precedence over the administration of the appropriate antivenom.[span_5](start_span)[span_5](end_span)",
+        cite: ""
+    },
+    {
+        q: "How long should you observe and monitor the patient closely at the bedside after each dose of antivenom has been given?[span_6](start_span)[span_6](end_span)",
+        options: [
+            "15 minutes",
+            "30 minutes",
+            "1 Hour",
+            "2 Hours"
+        ],
+        answer: 3,
+        explanation: "Observe and monitor the patient closely at the bedside for a minimum of 1 Hour after each dose of antivenom has been given.[span_7](start_span)[span_7](end_span)",
+        cite: ""
+    },
+    {
+        q: "Is compartment syndrome common in snakebites, and should patients routinely receive a fasciotomy in conjunction with antivenom?[span_8](start_span)[span_8](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only for hemotoxic bites",
+            "Only if severe edema is present within 30 minutes"
+        ],
+        answer: 2,
+        explanation: "Compartment syndrome is NOT common in snakebites, and patients should NOT receive a fasciotomy in conjunction with antivenom in most cases.[span_9](start_span)[span_9](end_span)",
+        cite: ""
+    },
+    {
+        q: "Should routine administration of antibiotics be given to patients with snakebites?[span_10](start_span)[span_10](end_span)",
+        options: [
+            "Yes, as a prophylactic measure for all snakebites.",
+            "Yes, but only intravenously.",
+            "No, unless signs and symptoms of an infection are present.",
+            "No, antibiotics are strictly contraindicated with antivenom."
+        ],
+        answer: 3,
+        explanation: "Routine administration of antibiotics should not be given to patients with snakebites unless signs and symptoms of an infection are present. Direct infections are rare when prompt, appropriate treatment is given.[span_11](start_span)[span_11](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the only prophylactic treatment (pretreatment) that has been shown to effectively reduce the incidence of early adverse reactions (EARS) in snakebite patients?[span_12](start_span)[span_12](end_span)",
+        options: [
+            "Diphenhydramine",
+            "Corticosteroids",
+            "Epinephrine",
+            "Calcium Gluconate"
+        ],
+        answer: 3,
+        explanation: "Epinephrine is the only prophylactic treatment that has been shown to effectively reduce the incidence of early adverse reactions in snakebite patients.[span_13](start_span)[span_13](end_span)",
+        cite: ""
+    },
+    {
+        q: "Is serum sickness associated with antivenom treatment dangerous?[span_14](start_span)[span_14](end_span)",
+        options: [
+            "Yes, it is frequently fatal.",
+            "Yes, it requires immediate intubation.",
+            "No, it may be uncomfortable but is not dangerous.",
+            "No, unless it lasts longer than 24 hours."
+        ],
+        answer: 3,
+        explanation: "Serum sickness associated with antivenom treatment may be uncomfortable but is not dangerous.[span_15](start_span)[span_15](end_span)",
+        cite: ""
+    },
+    {
+        q: "Which of the following interventions are NOT appropriate when treating a snakebite?[span_16](start_span)[span_16](end_span)",
+        options: [
+            "Applying constricting bandages or tourniquets.",
+            "Using venom extractors or commercial snakebite first aid kits.",
+            "Administering test doses of antivenom to check for hypersensitivity.",
+            "All of the above are NOT appropriate."
+        ],
+        answer: 4,
+        explanation: "You should NOT cut, suck, use tourniquets, use venom extractors, administer test doses of antivenom, or use antihistamines/steroids as prophylactic pretreatment.[span_17](start_span)[span_17](end_span)",
+        cite: ""
+    },
+    {
+        q: "Which WHO category is defined as 'highly venomous snakes which are common or widespread and cause numerous snakebites, resulting in high levels of morbidity, disability or mortality'?[span_18](start_span)[span_18](end_span)",
+        options: [
+            "Category 1",
+            "Category 2",
+            "Category 3",
+            "Category 4"
+        ],
+        answer: 1,
+        explanation: "Category 1: Venomous Snakes of Highest Medical Importance are defined as common or widespread snakes that cause numerous snakebites and high levels of morbidity or mortality.[span_19](start_span)[span_19](end_span)",
+        cite: ""
+    },
+    {
+        q: "Which WHO category is defined as highly venomous snakes capable of causing morbidity or death, but which are less frequently implicated due to habitat or behavior?[span_20](start_span)[span_20](end_span)",
+        options: [
+            "Category 1",
+            "Category 2",
+            "Category 3",
+            "Category 4"
+        ],
+        answer: 2,
+        explanation: "Category 2: Venomous Snakes of Secondary Medical Importance are highly venomous but less frequently implicated due to their activity cycles, behavior, habitat preferences, or remote occurrence.[span_21](start_span)[span_21](end_span)",
+        cite: ""
+    },
+    {
+        q: "What criteria are used to predict the need for a massive transfusion using the assessment of blood consumption (ABC) score?[span_22](start_span)[span_22](end_span)",
+        options: [
+            "Penetrating mechanism; positive FAST; SBP < 90 mmHg; HR >= 120 bpm",
+            "Blunt mechanism; negative FAST; SBP < 100 mmHg; HR >= 100 bpm",
+            "Penetrating mechanism; positive FAST; SBP < 120 mmHg; HR >= 90 bpm",
+            "Blunt mechanism; positive FAST; SBP < 80 mmHg; HR >= 110 bpm"
+        ],
+        answer: 1,
+        explanation: "Patients received one point for any of the following: penetrating mechanism; positive FAST; systolic blood pressure less than 90 mmHg; heart rate greater than or equal to 120 beats per minute.[span_23](start_span)[span_23](end_span)",
+        cite: ""
+    },
+    {
+        q: "An Assessment of Blood Consumption (ABC) score of _____ or greater predicts the need for massive blood transfusion with 75% sensitivity and 86% specificity.[span_24](start_span)[span_24](end_span)",
+        options: [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        answer: 2,
+        explanation: "An ABC score of two or greater predicted the need for massive blood transfusion with 75% sensitivity and 86% specificity.[span_25](start_span)[span_25](end_span)",
+        cite: ""
+    },
+    {
+        q: "Can blood product usage be optimized when hemorrhage control is undertaken simultaneously?[span_26](start_span)[span_26](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only if using whole blood",
+            "Only in patients with an ABC score of 4"
+        ],
+        answer: 1,
+        explanation: "Blood product usage can be optimized when hemorrhage control is undertaken simultaneously.[span_27](start_span)[span_27](end_span)",
+        cite: ""
+    },
+    {
+        q: "Why should rapid transfusion of blood be avoided if possible?[span_28](start_span)[span_28](end_span)",
+        options: [
+            "It causes severe hypothermia.",
+            "It can cause sheering of RBCs.",
+            "It dilutes clotting factors too quickly.",
+            "It leads to immediate volume overload and pulmonary edema."
+        ],
+        answer: 2,
+        explanation: "Rapid transfusion of blood can cause sheering of RBCs and should be avoided if possible.[span_29](start_span)[span_29](end_span)",
+        cite: ""
+    },
+    {
+        q: "In low titer group O whole blood, the titer of Anti-A and Anti-B antibodies is low enough to represent minimal risk of clinical consequences, making it a universal donor.[span_30](start_span)[span_30](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only for male patients",
+            "Only if irradiated first"
+        ],
+        answer: 1,
+        explanation: "In low titer group O whole blood, the titer of Anti-A and Anti-B antibodies is low enough to represent minimal risk of clinical consequences, and may be considered a universal donor.[span_31](start_span)[span_31](end_span)",
+        cite: ""
+    },
+    {
+        q: "In what ratio should blood products (plasma:platelet:RBC) be transfused?[span_32](start_span)[span_32](end_span)",
+        options: [
+            "1:1:1",
+            "1:2:1",
+            "2:1:1",
+            "3:1:2"
+        ],
+        answer: 1,
+        explanation: "Blood products should be transfused in a plasma:platelet:RBC ratio of 1:1:1.[span_33](start_span)[span_33](end_span)",
+        cite: ""
+    },
+    {
+        q: "If available, what blood type RBCs should be used preferentially for females of childbearing years?[span_34](start_span)[span_34](end_span)",
+        options: [
+            "Type O positive",
+            "Type O negative",
+            "Type AB positive",
+            "Type A negative"
+        ],
+        answer: 2,
+        explanation: "If available, type O negative RBCs should be used preferentially for females of childbearing years.[span_35](start_span)[span_35](end_span)",
+        cite: ""
+    },
+    {
+        q: "When administering blood products, do potential future pregnancy complications take precedence over resuscitation and prevention of exsanguination in female patients?[span_36](start_span)[span_36](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only if the patient is currently pregnant",
+            "Only when using plasma"
+        ],
+        answer: 2,
+        explanation: "False. Resuscitation and the prevention of exsanguination take priority over potential future pregnancy complications.[span_37](start_span)[span_37](end_span)",
+        cite: ""
+    },
+    {
+        q: "How long is the shelf life of 'never frozen' liquid plasma?[span_38](start_span)[span_38](end_span)",
+        options: [
+            "5 days",
+            "14 days",
+            "21 days",
+            "26 days"
+        ],
+        answer: 4,
+        explanation: "'Never frozen' liquid plasma has a shelf life of 26 days and may be more readily available.[span_39](start_span)[span_39](end_span)",
+        cite: ""
+    },
+    {
+        q: "Ensure that all blood products issues have a ________ attached and activated for temperature monitoring.[span_0](start_span)[span_0](end_span)",
+        options: [
+            "Safe-T-VUE (NSN 6515-08-100-3056)",
+            "Hemacool indicator",
+            "Blood-Temp 10",
+            "Therma-Tag 360"
+        ],
+        answer: 1,
+        explanation: "Ensure that all blood products issues have a Safe-T-VUE (NSN 6515-08-100-3056) attached and activated for temperature monitoring.[span_1](start_span)[span_1](end_span)",
+        cite: ""
+    },
+    {
+        q: "Before loading blood products for transportation, what must you ensure regarding the blood product containers?[span_2](start_span)[span_2](end_span)",
+        options: [
+            "They are labeled with the patient's blood type.",
+            "They are properly charged and maintained prior to loading.",
+            "They are sealed with tamper-evident tape.",
+            "They are stored with dry ice."
+        ],
+        answer: 2,
+        explanation: "Before loading blood products for transportation, ensure that the blood product containers are properly charged and maintained prior to loading blood products.[span_3](start_span)[span_3](end_span)",
+        cite: ""
+    },
+    {
+        q: "Thawed plasma needs to be refrigerated with a temperature between ________ prior to attaching a Safe-T-VUE.[span_4](start_span)[span_4](end_span)",
+        options: [
+            "-10 to -20 degrees Celsius",
+            "1-6 degrees Celsius",
+            "10-15 degrees Celsius",
+            "20-24 degrees Celsius"
+        ],
+        answer: 2,
+        explanation: "Thawed plasma needs to be refrigerated with a temperature between 1-6 degrees Celsius prior to attaching a Safe-T-VUE.[span_5](start_span)[span_5](end_span)",
+        cite: ""
+    },
+    {
+        q: "Blood products carried outside of a medical treatment facility (MTF) and/or laboratory will be contained in an approved storage container for a maximum of ________.[span_6](start_span)[span_6](end_span)",
+        options: [
+            "12 Hours",
+            "24 Hours",
+            "48 Hours",
+            "72 Hours"
+        ],
+        answer: 3,
+        explanation: "Blood products carried outside of a medical treatment facility (MTF) and/or laboratory will be contained in an approved storage container for a maximum of 48 Hours.[span_7](start_span)[span_7](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the first step in treating a prehospital transfusion reaction?[span_8](start_span)[span_8](end_span)",
+        options: [
+            "Administer epinephrine IV.",
+            "Immediately stop the transfusion.",
+            "Push 1 gram of calcium gluconate.",
+            "Administer 50mg of diphenhydramine."
+        ],
+        answer: 2,
+        explanation: "In the unlikely event of a prehospital transfusion reaction, immediately stop the transfusion.[span_9](start_span)[span_9](end_span)",
+        cite: ""
+    },
+    {
+        q: "When should the administration of one gram of calcium IV/IO be given in patients receiving blood products?[span_10](start_span)[span_10](end_span)",
+        options: [
+            "Only if the patient shows signs of hypocalcemia.",
+            "After every 2 units of blood products.",
+            "Before, during, or immediately after the first unit, and re-dosed after every 4 units.",
+            "Only after 10 units have been transfused (massive transfusion protocol)."
+        ],
+        answer: 3,
+        explanation: "Administration of one gram of calcium IV/IO before, during, or immediately after the first unit of blood product. Re-dose one gram of calcium IV/IO after every 4 units of blood products.[span_11](start_span)[span_11](end_span)",
+        cite: ""
+    },
+    {
+        q: "Is anaphylaxis from an arthropod envenomation an indication for antivenom?[span_12](start_span)[span_12](end_span)",
+        options: [
+            "Yes, antivenom should be administered immediately.",
+            "No, anaphylaxis from an arthropod envenomation is not an indication for antivenom.",
+            "Only if the arthropod is a scorpion.",
+            "Only if the patient has a history of severe allergies."
+        ],
+        answer: 2,
+        explanation: "Anaphylaxis from an arthropod envenomation is not an indication for antivenom.[span_13](start_span)[span_13](end_span)",
+        cite: ""
+    },
+    {
+        q: "A patient complains of abdominal muscle spasm and pain that started at a site with two small red spots where they felt a pinprick an hour ago. What is the patient most likely suffering from?[span_14](start_span)[span_14](end_span)",
+        options: [
+            "Local allergic reaction",
+            "Systemic Toxicity",
+            "Cytotoxic necrosis",
+            "Compartment syndrome"
+        ],
+        answer: 2,
+        explanation: "More than likely the patient is suffering from Systemic Toxicity (characteristic of a widow spider bite).[span_15](start_span)[span_15](end_span)",
+        cite: ""
+    },
+    {
+        q: "If a patient with significant symptoms meeting indications for antivenom has a history of asthma, can you still give one 2.5 milliliter vial of antivenom dissolved in one 2.5 milliliter vial of sterile water intravenously?[span_16](start_span)[span_16](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only if pre-treated with albuterol.",
+            "Only if pre-treated with corticosteroids."
+        ],
+        answer: 2,
+        explanation: "False.[span_17](start_span)[span_17](end_span)",
+        cite: ""
+    },
+    {
+        q: "When patients have significant symptoms meeting indications for antivenom, how effective is the antivenom, and can expired vials be used?[span_18](start_span)[span_18](end_span)",
+        options: [
+            "It is partially effective; expired vials must never be used.",
+            "It is rapidly effective and curative; expired vials may be used when necessary.",
+            "It takes days to become effective; expired vials are safe.",
+            "It only prevents necrosis; expired vials must be discarded."
+        ],
+        answer: 2,
+        explanation: "The antivenom is rapidly effective and curative. When necessary, expired vials of antivenom may be used.[span_19](start_span)[span_19](end_span)",
+        cite: ""
+    },
+    {
+        q: "Loxosceles reclusa is a venomous spider more commonly known as what?[span_20](start_span)[span_20](end_span)",
+        options: [
+            "The black widow or hourglass spider",
+            "The brown recluse, violin spider, or fiddleback spider",
+            "The hobo spider or funnel weaver",
+            "The wolf spider or ground spider"
+        ],
+        answer: 2,
+        explanation: "Loxosceles reclusa is a venomous spider more commonly known as the brown recluse, violin spider, or fiddleback spider.[span_21](start_span)[span_21](end_span)",
+        cite: ""
+    },
+    {
+        q: "Loxosceles venom is cytotoxic and consists of what two main constituents?[span_22](start_span)[span_22](end_span)",
+        options: [
+            "Neurotoxin and hemotoxin",
+            "Sphingomyelinase D and hyaluronidase",
+            "Phospholipase A2 and serotonin",
+            "Acetylcholinesterase and metalloproteinase"
+        ],
+        answer: 2,
+        explanation: "Loxosceles venom is cytotoxic and consists of Sphingomyelinase D and hyaluronidase.[span_23](start_span)[span_23](end_span)",
+        cite: ""
+    },
+    {
+        q: "What treatment should be provided for a patient bitten by a brown recluse?[span_24](start_span)[span_24](end_span)",
+        options: [
+            "Immediate surgical excision of the bite site",
+            "Application of a tourniquet and venom extraction",
+            "Wound care, tetanus prophylaxis, analgesics, and antipruritics as necessary",
+            "Administration of broad-spectrum IV antibiotics immediately"
+        ],
+        answer: 3,
+        explanation: "Treatment of local symptoms includes wound care, tetanus prophylaxis, analgesics, and antipruritics as necessary.[span_25](start_span)[span_25](end_span)",
+        cite: ""
+    },
+    {
+        q: "Are tarantula bites dangerous to humans?[span_26](start_span)[span_26](end_span)",
+        options: [
+            "Yes, they are frequently fatal without antivenom.",
+            "Yes, they cause severe systemic necrosis.",
+            "No, tarantula bites are not dangerous to humans.",
+            "No, unless the bite occurs on the face or neck."
+        ],
+        answer: 3,
+        explanation: "Tarantula bites are not dangerous to humans.[span_27](start_span)[span_27](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the best way to remove a tarantula's barbed hairs from the skin?[span_28](start_span)[span_28](end_span)",
+        options: [
+            "Scraping with a credit card",
+            "Using tweezers individually",
+            "Washing vigorously with soap and water",
+            "Adhesive tape"
+        ],
+        answer: 4,
+        explanation: "Adhesive tape can be used to remove barbed hairs from the skin.[span_29](start_span)[span_29](end_span)",
+        cite: ""
+    },
+    {
+        q: "Unlike other species of spiders, funnel web spiders can bite tenaciously and may require what?[span_30](start_span)[span_30](end_span)",
+        options: [
+            "To be physically removed from the victim",
+            "Amputation of the affected digit",
+            "Immediate administration of epinephrine",
+            "Immersion of the bite site in hot water"
+        ],
+        answer: 1,
+        explanation: "Funnel web spiders can bite tenaciously and may have to be physically removed from the victim.[span_31](start_span)[span_31](end_span)",
+        cite: ""
+    },
+    {
+        q: "Prehospital management for a funnel web spider's bite consists of what?[span_32](start_span)[span_32](end_span)",
+        options: [
+            "Tourniquet application above the bite site",
+            "Pressure immobilization using an elastic crepe bandage applied tightly enough to limit lymphatic spread, but not to restrict blood flow",
+            "Ice packs applied directly to the wound for 30 minutes",
+            "Venom extraction using a commercial kit"
+        ],
+        answer: 2,
+        explanation: "Prehospital management consists of pressure immobilization using an elastic crepe bandage applied tightly enough to limit lymphatic spread, but not to restrict blood flow.[span_33](start_span)[span_33](end_span)",
+        cite: ""
+    },
+    {
+        q: "Scorpion venoms are complex and can include which of the following?[span_34](start_span)[span_34](end_span)",
+        options: [
+            "Sphingomyelinase D and hyaluronidase",
+            "Phospholipase, acetylcholinesterase, hyaluronidase, serotonin, and neurotoxins",
+            "Hemotoxins, myotoxins, and cytotoxins",
+            "Only localized histamine-releasing agents"
+        ],
+        answer: 2,
+        explanation: "Scorpion venoms are complex and can include: Phospholipase, acetylcholinesterase, hyaluronidase, serotonin, and neurotoxins.[span_35](start_span)[span_35](end_span)",
+        cite: ""
+    },
+    {
+        q: "The majority of scorpion envenomations can be adequately managed with what?[span_36](start_span)[span_36](end_span)",
+        options: [
+            "Immediate administration of antivenom",
+            "Surgical debridement and fasciotomy",
+            "Pain medications (ibuprofen, acetaminophen, and opioids) and routine wound management to include tetanus prophylaxis",
+            "Continuous IV infusion of midazolam"
+        ],
+        answer: 3,
+        explanation: "The majority of scorpion envenomations can be adequately managed with pain medications (ibuprofen, acetaminophen, and opioids) and routine wound management to include tetanus prophylaxis.[span_37](start_span)[span_37](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the first line therapy for sympathomimetic toxicity in clinically significant envenomation?[span_38](start_span)[span_38](end_span)",
+        options: [
+            "Beta-blockers",
+            "Calcium channel blockers",
+            "Benzodiazepines",
+            "Alpha-blockers"
+        ],
+        answer: 3,
+        explanation: "Benzodiazepines are the first line therapy for sympathomimetic toxicity.[span_39](start_span)[span_39](end_span)",
+        cite: ""
+    },
+    {
+        q: "For severe reactions to antivenom, immediately stop the antivenom infusion and treat using what protocol?[span_0](start_span)[span_0](end_span)",
+        options: [
+            "Standard anaphylaxis protocol",
+            "Advanced cardiac life support protocol",
+            "Massive transfusion protocol",
+            "Sepsis management protocol"
+        ],
+        answer: 1,
+        explanation: "For severe reactions (i.e. respiratory distress, hypotension), immediately stop the antivenom infusion and treat using a standard anaphylaxis protocol.[span_1](start_span)[span_1](end_span)",
+        cite: ""
+    },
+    {
+        q: "A Glasgow Coma Scale (GCS) score of 13-15 indicates a traumatic brain injury (TBI) severity classification of:[span_2](start_span)[span_2](end_span)",
+        options: [
+            "Mild",
+            "Moderate",
+            "Severe",
+            "Critical"
+        ],
+        answer: 1,
+        explanation: "A Glasgow Coma Scale (GCS) score of 13-15 indicates a traumatic brain injury (TBI) severity classification of Mild.[span_3](start_span)[span_3](end_span)",
+        cite: ""
+    },
+    {
+        q: "A Glasgow Coma Scale (GCS) score of 9-12 indicates a traumatic brain injury (TBI) severity classification of:[span_4](start_span)[span_4](end_span)",
+        options: [
+            "Mild",
+            "Moderate",
+            "Severe",
+            "Critical"
+        ],
+        answer: 2,
+        explanation: "A Glasgow Coma Scale (GCS) score of 9-12 indicates a traumatic brain injury (TBI) severity classification of Moderate.[span_5](start_span)[span_5](end_span)",
+        cite: ""
+    },
+    {
+        q: "A Glasgow Coma Scale (GCS) score of 3-8 indicates a traumatic brain injury (TBI) severity classification of:[span_6](start_span)[span_6](end_span)",
+        options: [
+            "Mild",
+            "Moderate",
+            "Severe",
+            "Critical"
+        ],
+        answer: 3,
+        explanation: "A Glasgow Coma Scale (GCS) score of 3-8 indicates a traumatic brain injury (TBI) severity classification of Severe.[span_7](start_span)[span_7](end_span)",
+        cite: ""
+    },
+    {
+        q: "In no circumstance should a neurologic examination take priority over measurement of the optic nerve sheath diameter (ONSD).[span_8](start_span)[span_8](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only for severe TBI",
+            "Only when the patient is sedated"
+        ],
+        answer: 2,
+        explanation: "False. In no circumstance should measurement of ONSD take priority over a neurologic examination, and all results must be considered in the context of the neurologic examination and overall patient status.[span_9](start_span)[span_9](end_span)",
+        cite: ""
+    },
+    {
+        q: "Visualizations of spontaneous venous pulsations with an opthalmoscope can reassure the provider that intracranial pressure (ICP) is not critically elevated.[span_10](start_span)[span_10](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only if accompanied by pupil dilation",
+            "Only in patients with a GCS of 15"
+        ],
+        answer: 1,
+        explanation: "Visualizations of spontaneous venous pulsations with an opthalmoscope can reassure the provider that intracranial pressure (ICP) is not critically elevated.[span_11](start_span)[span_11](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the target systolic blood pressure (SBP) in polytrauma patients with ongoing bleeding and a suspected traumatic brain injury (TBI)?[span_12](start_span)[span_12](end_span)",
+        options: [
+            "Maintain SBP > 80mmHg",
+            "Maintain SBP > 90mmHg",
+            "Maintain SBP > 100mmHg",
+            "Maintain SBP > 110mmHg"
+        ],
+        answer: 4,
+        explanation: "Maintain SBP >110mmHg. Recent literature has suggested better outcomes may occur when SBP is maintained above 110mmHg in TBI patients.[span_13](start_span)[span_13](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the target urine output (UOP) for a polytrauma patient with a suspected traumatic brain injury (TBI)?[span_14](start_span)[span_14](end_span)",
+        options: [
+            "10-20 mL/h",
+            "30-50 mL/h",
+            "50-70 mL/h",
+            "70-100 mL/h"
+        ],
+        answer: 2,
+        explanation: "Goal UOP in a polytrauma patient is 30-50mL/h.[span_15](start_span)[span_15](end_span)",
+        cite: ""
+    },
+    {
+        q: "Colloids and hetastarches are the preferred fluid for traumatic brain injury (TBI) patients.[span_16](start_span)[span_16](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only in the first 24 hours",
+            "Only for moderate TBI"
+        ],
+        answer: 2,
+        explanation: "False. Colloids and hetastarches should be avoided for traumatic brain injury (TBI) patients.[span_17](start_span)[span_17](end_span)",
+        cite: ""
+    },
+    {
+        q: "If the Glasgow Coma Scale (GCS) score is ____ or less, or there is facial trauma with compromised airway, a definitive airway is most likely needed.[span_18](start_span)[span_18](end_span)",
+        options: [
+            "6",
+            "8",
+            "10",
+            "12"
+        ],
+        answer: 2,
+        explanation: "A GCS score of 8 or less indicates a need for endotracheal intubation.[span_19](start_span)[span_19](end_span)",
+        cite: ""
+    },
+    {
+        q: "Every effort should be made to optimize airway placement for a traumatic brain injury (TBI) patient on the first attempt by doing what?[span_20](start_span)[span_20](end_span)",
+        options: [
+            "Preoxygenating with supplemental O2",
+            "Selecting the most experienced provider available",
+            "Using technique most familiar to the provider",
+            "All of the above"
+        ],
+        answer: 4,
+        explanation: "Optimize airway placement by preoxygenating with supplemental O2, selecting the most experienced provider available, and using the technique most familiar to the provider.[span_21](start_span)[span_21](end_span)",
+        cite: ""
+    },
+    {
+        q: "Patients typically require less sedation after cricothyroidotomy than after endotracheal tube (ETT) placement.[span_22](start_span)[span_22](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only if utilizing ketamine",
+            "Only for patients with mild TBI"
+        ],
+        answer: 1,
+        explanation: "True. Patients typically require less sedation after cricothyroidotomy than ETT placement, which may help conserve resources if medications are limited.[span_23](start_span)[span_23](end_span)",
+        cite: ""
+    },
+    {
+        q: "Which of the following is a recommended measure to reduce intracranial pressure?[span_24](start_span)[span_24](end_span)",
+        options: [
+            "Maintain neck turned to the right",
+            "Elevate head of bed (HOB) 30-60 degrees",
+            "Keep core temperature above 100 degrees Fahrenheit",
+            "Maintain SBP below 90mmHg"
+        ],
+        answer: 2,
+        explanation: "Measures to reduce ICP include elevating the head of bed 30-60 degrees, maintaining the neck in a midline position, maintaining SpO2 >90%, maintaining core temperature between 96-99.5F, and maintaining SBP >100mmHg (ideally 110).[span_25](start_span)[span_25](end_span)",
+        cite: ""
+    },
+    {
+        q: "What potentially adverse complications can mannitol cause in a traumatic brain injury (TBI) patient?[span_26](start_span)[span_26](end_span)",
+        options: [
+            "It is a diuretic and might lower blood pressure; it can cross a damaged blood-brain barrier and potentially worsen ICP.",
+            "It causes severe hyperthermia.",
+            "It leads to immediate respiratory depression.",
+            "It causes rapid spikes in blood glucose levels."
+        ],
+        answer: 1,
+        explanation: "It is a diuretic and might lower the blood pressure; it can cross a damaged blood-brain barrier and potentially worsen ICP.[span_27](start_span)[span_27](end_span)",
+        cite: ""
+    },
+    {
+        q: "When treating a patient with traumatic brain injury, what are the best antibiotic options for wounds that are grossly contaminated with organic debris?[span_28](start_span)[span_28](end_span)",
+        options: [
+            "Ceftriaxone 2 gm IV/IO alone",
+            "Cefazolin 2g IV/IO alone",
+            "Add metronidazole 500mg IV/IO every 8 hours for 5 days to the standard Ceftriaxone or Cefazolin regimen",
+            "Amoxicillin 500mg PO every 8 hours"
+        ],
+        answer: 3,
+        explanation: "Add metronidazole 500mg IV/IO every 8 hours for 5 days for wounds that are grossly contaminated with organic debris (e.g., dirt, debris, clothing).[span_29](start_span)[span_29](end_span)",
+        cite: ""
+    },
+    {
+        q: "What are common signs of non-convulsive seizures in traumatic brain injury (TBI) patients?[span_30](start_span)[span_30](end_span)",
+        options: [
+            "Hyperventilation and tachycardia",
+            "Coma, delirium, agitation, aphasia, and or 'blank staring'",
+            "Muscle spasms isolated to the lower extremities",
+            "Fever and elevated blood pressure"
+        ],
+        answer: 2,
+        explanation: "Common signs of non-convulsive seizures include coma, delirium, agitation, aphasia, and or 'blank staring'.[span_31](start_span)[span_31](end_span)",
+        cite: ""
+    },
+    {
+        q: "Which medication is preferred to lower a traumatic brain injury (TBI) patient's core body temperature?[span_32](start_span)[span_32](end_span)",
+        options: [
+            "Ibuprofen 800mg",
+            "Ketorolac 30mg IV",
+            "Acetaminophen 650mg every 4 hours orally or rectally",
+            "Aspirin 325mg orally"
+        ],
+        answer: 3,
+        explanation: "Acetaminophen 650mg every 4 hours orally (PO) or rectally as needed is preferred for rectal temperatures >99.5F.[span_33](start_span)[span_33](end_span)",
+        cite: ""
+    },
+    {
+        q: "In a traumatic brain injury (TBI) patient, target a blood glucose level of ____ via handheld glucometer to avoid both hypoglycemia and hyperglycemia.[span_34](start_span)[span_34](end_span)",
+        options: [
+            "100 mg/dL",
+            "140 mg/dL",
+            "180 mg/dL",
+            "220 mg/dL"
+        ],
+        answer: 3,
+        explanation: "Target a blood glucose level of 180 mg/dL via handheld glucometer to avoid both hypoglycemia and hyperglycemia.[span_35](start_span)[span_35](end_span)",
+        cite: ""
+    },
+    {
+        q: "Hyperglycemia is more harmful to the brain than hypoglycemia.[span_36](start_span)[span_36](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only in pediatric patients",
+            "Only if accompanied by hyperthermia"
+        ],
+        answer: 2,
+        explanation: "False. Hypoglycemia is more harmful to the brain than hyperglycemia.[span_37](start_span)[span_37](end_span)",
+        cite: ""
+    },
+    {
+        q: "Neuromuscular blocking agents will mask seizures and clinical examination changes in traumatic brain injury (TBI) patients.[span_38](start_span)[span_38](end_span)",
+        options: [
+            "True",
+            "False",
+            "Only for the first hour of administration",
+            "Only in patients with a GCS of 3"
+        ],
+        answer: 1,
+        explanation: "True; therefore the risk versus benefit of use during transport must be considered.[span_39](start_span)[span_39](end_span)",
+        cite: ""
+    },
+
+];
+
+
