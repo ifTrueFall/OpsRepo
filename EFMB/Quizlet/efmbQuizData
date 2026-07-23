@@ -1,0 +1,202 @@
+const efmbQuizData = [
+    {
+        q: "Who is the best person to control the Military Working Dog during a medical situation?[span_3](start_span)[span_3](end_span)",
+        options: [
+            "The Veterinarian",
+            "The Dog Handler",
+            "The Combat Medic",
+            "The Unit Commander"
+        ],
+        answer: 2,
+        explanation: "The Dog Handler is the best person; they have the most accurate information about past medical problems and the current situation, and they have first aid training and can assist in care.[span_4](start_span)[span_4](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the normal temperature (rectal) range for a Military Working Dog at rest?[span_5](start_span)[span_5](end_span)",
+        options: [
+            "98.6° to 100.2° F",
+            "99.0° to 101.5° F",
+            "101° to 103° F",
+            "102.5° to 104° F"
+        ],
+        answer: 3,
+        explanation: "The normal rectal temperature range for a Military Working Dog at rest is 101° to 103° F.[span_6](start_span)[span_6](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the heart/pulse rate range for a Military Working Dog at rest?[span_7](start_span)[span_7](end_span)",
+        options: [
+            "40-60 bpm",
+            "60-80 bpm",
+            "80-100 bpm",
+            "100-120 bpm"
+        ],
+        answer: 2,
+        explanation: "The normal heart/pulse rate range for a Military Working Dog at rest is 60-80 bpm.[span_8](start_span)[span_8](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the normal blood pressure for a Military Working Dog at rest?[span_9](start_span)[span_9](end_span)",
+        options: [
+            "Systolic 100 mmHg / diastolic 60 mmHg",
+            "Systolic 110 mmHg / diastolic 70 mmHg",
+            "Systolic 120 mmHg / diastolic 80 mmHg",
+            "Systolic 140 mmHg / diastolic 90 mmHg"
+        ],
+        answer: 3,
+        explanation: "The normal blood pressure for a Military Working Dog at rest is systolic 120 mmHg/diastolic 80 mmHg.[span_10](start_span)[span_10](end_span)",
+        cite: ""
+    },
+    {
+        q: "Which vein should be used for long-term fluid therapy, large volume fluid delivery, and repeated blood sampling on Military Working Dogs?[span_11](start_span)[span_11](end_span)",
+        options: [
+            "Cephalic or lateral saphenous veins",
+            "Jugular or femoral veins",
+            "Medial saphenous or basilic veins",
+            "Carotid or subclavian veins"
+        ],
+        answer: 1,
+        explanation: "Use the cephalic or lateral saphenous veins for long-term fluid therapy, large volume fluid delivery, and repeated blood sampling.[span_12](start_span)[span_12](end_span)",
+        cite: ""
+    },
+    {
+        q: "Where is the arterial pulse of a Military Working Dog best palpated?[span_13](start_span)[span_13](end_span)",
+        options: [
+            "The carotid artery on the neck",
+            "The femoral artery on the medial aspect of the proximal thigh",
+            "The brachial artery on the medial forelimb",
+            "The radial artery near the carpal joint"
+        ],
+        answer: 2,
+        explanation: "The arterial pulse is best palpated at the femoral artery on the medial aspect of the proximal thigh in the inguinal area, or at the dorsal metatarsal artery on the dorsal aspect of the proximal hind paw.[span_14](start_span)[span_14](end_span)",
+        cite: ""
+    },
+    {
+        q: "Where are pulse oximetry probes (typically finger probes) best placed for optimal reliability in unconscious, sedated, or anesthetized dogs?[span_15](start_span)[span_15](end_span)",
+        options: [
+            "The ear pinna",
+            "The paw pad",
+            "The tongue",
+            "The tail base"
+        ],
+        answer: 3,
+        explanation: "Pulse oximetry probes are best placed on the tongue for optimal reliability in unconscious, sedated, or anesthetized dogs.[span_16](start_span)[span_16](end_span)",
+        cite: ""
+    },
+    {
+        q: "What are the 3 characteristic breathing patterns typically displayed in Military Working Dogs in respiratory distress?[span_17](start_span)[span_17](end_span)",
+        options: [
+            "Obstructive, Restrictive, Parenchymal",
+            "Shallow, Rapid, Apneic",
+            "Thoracic, Abdominal, Paradoxical",
+            "Tachypnea, Bradypnea, Dyspnea"
+        ],
+        answer: 1,
+        explanation: "The 3 characteristic breathing patterns are Obstructive breathing pattern, Restrictive breathing pattern, and Parenchymal breathing pattern.[span_18](start_span)[span_18](end_span)",
+        cite: ""
+    },
+    {
+        q: "While placing an endotracheal tube in a Military Working Dog, you palpate the dog's neck and feel 2 tubes. What does this indicate?[span_19](start_span)[span_19](end_span)",
+        options: [
+            "The tube is correctly placed in the trachea",
+            "The endotracheal tube is in the dog's esophagus",
+            "The dog has a collapsed trachea",
+            "The tube has pierced the tracheal wall"
+        ],
+        answer: 2,
+        explanation: "Feeling two tubes during palpation indicates that the endotracheal tube is improperly placed in the dog's esophagus.[span_20](start_span)[span_20](end_span)",
+        cite: ""
+    },
+    {
+        q: "When performing cardiopulmonary resuscitation on a Military Working Dog (MWD) in lateral recumbency, what is the target rate of compressions per minute?[span_21](start_span)[span_21](end_span)",
+        options: [
+            "80",
+            "100",
+            "120",
+            "140"
+        ],
+        answer: 2,
+        explanation: "Begin sustained, forceful chest compressions with the MWD in lateral recumbency at a rate of 100 compressions per minute for at least 2-3 minutes per cycle.[span_22](start_span)[span_22](end_span)",
+        cite: ""
+    },
+    {
+        q: "Calculate the approximate safe but effective crystalloid bolus volume for a 55 pound Military Working Dog experiencing signs and symptoms of shock.[span_23](start_span)[span_23](end_span)",
+        options: [
+            "250",
+            "550",
+            "750",
+            "1000"
+        ],
+        answer: 2,
+        explanation: "The approximate safe but effective crystalloid bolus volume for a 55 pound Military Working Dog is 550.[span_24](start_span)[span_24](end_span)",
+        cite: ""
+    },
+    {
+        q: "How long can whole blood collected in the anticoagulant CPD be stored?[span_25](start_span)[span_25](end_span)",
+        options: [
+            "14 days",
+            "21 days",
+            "28 days",
+            "35 days"
+        ],
+        answer: 2,
+        explanation: "Whole blood collected in the anticoagulant CPD can be stored for 21 days.[span_26](start_span)[span_26](end_span)",
+        cite: ""
+    },
+    {
+        q: "How long can whole blood collected in the anticoagulant CPDA-1 be stored?[span_27](start_span)[span_27](end_span)",
+        options: [
+            "21 days",
+            "28 days",
+            "35 days",
+            "42 days"
+        ],
+        answer: 3,
+        explanation: "Whole blood collected in the anticoagulant CPDA-1 can be stored for 35 days.[span_28](start_span)[span_28](end_span)",
+        cite: ""
+    },
+    {
+        q: "If stored at room temperature, fresh whole blood must be destroyed if not used within what time period?[span_29](start_span)[span_29](end_span)",
+        options: [
+            "8 hours after collection",
+            "12 hours after collection",
+            "24 hours after collection",
+            "48 hours after collection"
+        ],
+        answer: 3,
+        explanation: "If stored at room temperature, fresh whole blood must be destroyed if not used within 24 hours after collection.[span_30](start_span)[span_30](end_span)",
+        cite: ""
+    },
+    {
+        q: "What is the preferred resuscitation product for the prehospital treatment of patients in hemorrhagic shock?[span_31](start_span)[span_31](end_span)",
+        options: [
+            "Crystalloids",
+            "Packed Red Blood Cells (PRBCs)",
+            "Fresh Frozen Plasma (FFP)",
+            "Low Titer O Whole Blood (LTOWB)"
+        ],
+        answer: 4,
+        explanation: "LTOWB (Low Titer O Whole Blood) is the preferred resuscitation product for the prehospital treatment of patients in hemorrhagic shock.[span_32](start_span)[span_32](end_span)",
+        cite: ""
+    },
+    {
+        q: "In general, whole blood units should not be collected from donors more frequently than every _____ weeks.[span_33](start_span)[span_33](end_span)",
+        options: [
+            "4",
+            "6",
+            "8",
+            "12"
+        ],
+        answer: 3,
+        explanation: "Whole blood units should not be collected from donors more frequently than every 8 weeks.[span_34](start_span)[span_34](end_span)",
+        cite: ""
+    },
+
+
+
+];
+
+// Exporting the module depending on how your quizengine.js imports files
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = efmbQuizData;
+}
